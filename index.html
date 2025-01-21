@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SherX Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>SherX Dashboard</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#investments">Investments</a></li>
+                <li><a href="#earnings">Earnings</a></li>
+                <li><a href="#notifications">Notifications</a></li>
+                <li><a href="#business">Business</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Page -->
+    <section id="login" class="section">
+        <h2>Login</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section">
+        <h2>Overview</h2>
+        <div class="card">
+            <h3>Investment Summary</h3>
+            <p>Total Invested: $100,000</p>
+            <p>Active Investments: 5</p>
+            <p>ROI: 15%</p>
+        </div>
+        <div class="card">
+            <h3>Profit Sharing Data</h3>
+            <p>Profits Received: $25,000</p>
+            <p>Upcoming Payouts: $5,000</p>
+        </div>
+        <div class="card">
+            <h3>Portfolio Performance</h3>
+            <canvas id="portfolioChart"></canvas>
+        </div>
+    </section>
+
+    <!-- Investments Section -->
+    <section id="investments" class="section">
+        <h2>Investments</h2>
+        <div class="card">
+            <h3>Active Investments</h3>
+            <p>Project: Renewable Energy</p>
+            <p>Amount Invested: $20,000</p>
+            <p>Status: Active</p>
+        </div>
+        <div class="card">
+            <h3>Past Investments</h3>
+            <p>Project: Tech Startup</p>
+            <p>Profit: $10,000</p>
+            <p>Status: Closed</p>
+        </div>
+    </section>
+
+    <!-- Earnings Section -->
+    <section id="earnings" class="section">
+        <h2>Earnings & Withdrawals</h2>
+        <div class="card">
+            <h3>Profit Summary</h3>
+            <p>Monthly Earnings: $5,000</p>
+        </div>
+        <div class="card">
+            <h3>Withdrawal Requests</h3>
+            <p>Requested: $2,000</p>
+            <p>Status: In Process</p>
+        </div>
+    </section>
+
+    <!-- Notifications Section -->
+    <section id="notifications" class="section">
+        <h2>Notifications & Reports</h2>
+        <ul class="notification-list">
+            <li>New funding opportunity available!</li>
+            <li>Upcoming payout scheduled for 01/25/2025</li>
+            <li>Your funding proposal has been approved.</li>
+        </ul>
+    </section>
+
+    <!-- Business Section -->
+    <section id="business" class="section">
+        <h2>Business Dashboard</h2>
+        <div class="card">
+            <h3>Funding Status</h3>
+            <p>Total Funding Received: $50,000</p>
+            <p>Repayment Schedule: 6 months</p>
+        </div>
+        <div class="card">
+            <h3>Active Deals</h3>
+            <p>Project: Solar Panels</p>
+            <p>Amount: $30,000</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>SherX &copy; 2025. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
